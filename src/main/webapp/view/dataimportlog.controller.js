@@ -1,7 +1,6 @@
 jQuery.sap.require("sap.ui.core.mvc.Controller");
 jQuery.sap.require("sap.m.MessageBox");
 
-
 sap.ui.core.mvc.Controller.extend("com.grunt.test.view.dataimportlog", {
 	_oResourceBundle: null,
 	_oComponent: null,

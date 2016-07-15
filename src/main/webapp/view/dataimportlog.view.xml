@@ -1,7 +1,7 @@
-<core:View controllerName="sap.iot.va.dataimportlog.view.dataimportlog" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns="sap.m">
+<core:View controllerName="com.grunt.test.view.dataimportlog" xmlns:core="sap.ui.core" xmlns:l="sap.ui.layout" xmlns="sap.m">
 	<Page id="page" navButtonPress="onNavBack" showHeader="true" showNavButton="true" title="{i18n>appTitle}">
 		<subHeader></subHeader>
 		<content>
-		</content>		
+		</content>
 	</Page>
 </core:View>

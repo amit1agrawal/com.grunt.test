@@ -1,5 +1,4 @@
 jQuery.sap.declare("com.grunt.test.Component");
-
 jQuery.sap.require("sap.ui.core.UIComponent");
 
 sap.ui.core.UIComponent.extend("com.grunt.test.Component", {

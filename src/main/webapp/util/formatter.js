@@ -1,6 +1,6 @@
-jQuery.sap.declare("sap.iot.va.dataimportlog.util.formatter");
+jQuery.sap.declare("com.grunt.test.util.formatter");
 
-sap.iot.va.dataimportlog.util.formatter = {
+com.grunt.test.util.formatter = {
 
 	statusImportMode: function(value) {
 		var map = {
