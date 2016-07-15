@@ -5,7 +5,7 @@ module.exports = function(grunt){
         options:{
           resources:{
             cwd: 'src/main/webapp',
-            prefix: 'sap/iot/va/dataimportlog'
+            prefix: 'com/grunt/test'
           },
           dest: 'src/main/webapp/preload'
         },
