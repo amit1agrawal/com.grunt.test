@@ -1,0 +1,68 @@
+{
+	"welcomeFile": "index.html",
+	"routes": [
+		{
+			"path": "/sap/rsm",
+			"target": {
+				"type": "destination",
+				"name": "PDMS",
+				"entryPath": "/sap/rsm"
+			},
+			"description": "Predictive Maintenance and Services, HANA Services"
+        },
+		{
+			"path": "/src/main/webapp/sap/rsm",
+			"target": {
+				"type": "destination",
+				"name": "PDMS",
+				"entryPath": "/sap/rsm"
+			},
+			"description": "Predictive Maintenance and Services, HANA Services"
+        },
+		{
+			"path": "/src/main/webapp/resources",
+			"target": {
+				"type": "service",
+				"name": "sapui5",
+				"entryPath": "/resources"
+			},
+			"description": " SAPUI5 Resources"
+        },
+		{
+			"path": "/src/main/webapp/test-resources",
+			"target": {
+				"type": "service",
+				"name": "sapui5",
+				"entryPath": "/test-resources"
+			},
+			"description": " SAPUI5 Test Resources"
+        },
+		{
+			"path": "/resources",
+			"target": {
+				"type": "service",
+				"name": "sapui5",
+				"entryPath": "/resources"
+			},
+			"description": "SAPUI5 Resources"
+        },
+		{
+			"path": "/test-resources",
+			"target": {
+				"type": "service",
+				"name": "sapui5",
+				"entryPath": "/test-resources"
+			},
+			"description": "SAPUI5 Test Resources"
+        },
+		{
+			"path": "/sap/ui5/1/resources/sap/iot/pdms/lib/reuse",
+			"target": {
+				"type": "application",
+				"name": "iotpdmslibreuse",
+				"entryPath": "/sap/iot/pdms/lib/reuse"
+			},
+			"description": "Reuse Library"
+        }
+  ]
+}

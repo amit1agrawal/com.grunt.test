@@ -1,0 +1,94 @@
+{
+	"welcomeFile": "index.html",
+	"routes": [
+		{
+			"path": "/sap/rsm",
+			"target": {
+				"type": "destination",
+				"name": "PDMS",
+				"entryPath": "/sap/rsm"
+			},
+			"description": "Predictive Maintenance and Services, HANA Services"
+        }, {
+			"path": "/src/main/webapp/sap/rsm",
+			"target": {
+				"type": "destination",
+				"name": "PDMS",
+				"entryPath": "/sap/rsm"
+			},
+			"description": "Predictive Maintenance and Services, HANA Services"
+        }, {
+			"path": "/src/main/webapp/resources",
+			"target": {
+				"type": "service",
+				"name": "sapui5",
+				"entryPath": "/resources"
+			},
+			"description": "SAPUI5 Resources"
+        }, {
+			"path": "/resources",
+			"target": {
+				"type": "service",
+				"name": "sapui5",
+				"entryPath": "/resources"
+			},
+			"description": "SAPUI5 Resources"
+        },{
+			"path": "/src/main/webapp/resources/sap/iot/pdms/lib/reuse",
+			"target": {
+				"type": "application",
+				"name": "iotpdmslibreuse",
+				"entryPath": "/sap/iot/pdms/lib/reuse"
+			},
+			"description": "Reuse Library"
+        },{
+			"path": "/src/main/webapp/resources/sap/iot/pdms/lib/chart",
+			"target": {
+				"type": "application",
+				"name": "iotpdmslibchart",
+				"entryPath": "/sap/iot/pdms/lib/chart"
+			},
+			"description": "Chart Library"
+        },{
+			"path": "/src/main/webapp/test-resources",
+			"target": {
+				"type": "service",
+				"name": "sapui5",
+				"entryPath": "/test-resources"
+			},
+			"description": " SAPUI5 Test Resources"
+        }, {
+			"path": "/test-resources",
+			"target": {
+				"type": "service",
+				"name": "sapui5",
+				"entryPath": "/test-resources"
+			},
+			"description": " SAPUI5 Test Resources"
+        }, {
+			"path": "/src/test/resources",
+			"target": {
+				"type": "service",
+				"name": "sapui5",
+				"entryPath": "/resources"
+			},
+			"description": "SAPUI5 Resources"
+        },{
+			"path": "/src/test/resources/sap/iot/pdms/lib/reuse",
+			"target": {
+				"type": "application",
+				"name": "iotpdmslibreuse",
+				"entryPath": "/sap/iot/pdms/lib/reuse"
+			},
+			"description": "Reuse Library"
+        },{
+			"path": "/src/test/resources/sap/iot/pdms/lib/chart",
+			"target": {
+				"type": "application",
+				"name": "iotpdmslibchart",
+				"entryPath": "/sap/iot/pdms/lib/chart"
+			},
+			"description": "Chart Library"
+        }
+    ]
+}

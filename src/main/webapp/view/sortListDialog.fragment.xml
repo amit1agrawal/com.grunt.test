@@ -1,0 +1,23 @@
+<core:FragmentDefinition xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<ViewSettingsDialog>
+		<sortItems>
+			<ViewSettingsItem text="{i18n>$Machine}" key="MachineId"
+				selected="false" />
+			<ViewSettingsItem text="{i18n>$Sensor}" key="SensorId"
+				selected="false" />
+			<ViewSettingsItem text="{i18n>$FileName}" key="FileName"
+				selected="false" />
+			<ViewSettingsItem text="{i18n>$ErrorCode}" key="ErrorCodeRef"
+				selected="false" />
+			<ViewSettingsItem text="{i18n>$Type}" key="Type"
+				selected="false" />
+			<ViewSettingsItem text="{i18n>$Severity}" key="Severity"
+				selected="false" />
+			<ViewSettingsItem text="{i18n>$ImportTimestamp}" key="ImportTimestamp"
+				selected="true" />
+			<ViewSettingsItem text="{i18n>$FileTimestamp}" key="FileTimestamp"
+				selected="false" />
+		</sortItems>
+	</ViewSettingsDialog>
+</core:FragmentDefinition>
