@@ -8,7 +8,6 @@ sap.ui.core.UIComponent.extend("com.grunt.test.Component", {
 
     init : function() {
 	    sap.ui.core.UIComponent.prototype.init.apply(this, arguments);
-
 	    this._setDeviceModel();
 	    this.getRouter().initialize();
     },
