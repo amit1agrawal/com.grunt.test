@@ -14,7 +14,7 @@ module.exports = function(grunt){
     }
 
   });
-  //grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-openui5');
   grunt.registerTask('default','openui5_preload');
 };
